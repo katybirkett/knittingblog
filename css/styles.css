@@ -1,0 +1,49 @@
+body{
+  padding: 0;
+}
+
+.container-fluid {
+  text-align: center;
+  padding: 0;
+}
+
+/*** titles section **/
+.navbar {
+  padding-left: 0;
+
+}
+#title-section {
+  background-color: #625757;
+  color: #625757;
+  padding: 3% 15% 7%;
+
+}
+#intro-section{
+  position: relative;
+  min-height: 400px;
+  width: 100%;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(../images/woolmess.jpg);
+  background-size:cover;
+}
+.title-container {
+
+  text-align: left;
+}
+
+
+
+.intro-heading {
+  color: #bcbab8;
+  display: inline-block;
+  position:relative;
+  line-height: 1.5;
+  padding: 3% 3%;
+}
+.intro-text {
+  color: #bcbab8;
+  display: inline-block;
+  position:relative;
+  padding: 3% 3%;
+  line-height: 1.5;
+
+}
